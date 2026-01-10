@@ -7,7 +7,7 @@ password = input('\n Now enter your dreamer passcode: ')
 # little loading animation
 
 spinner = ["|", "/", "-", "\\"]
-print("\nLoading ", end="", flush=True)
+print("\n Loading ", end="", flush=True)
 
 for i in range(12):
     print(spinner[i % 4], end="\r", flush=True)

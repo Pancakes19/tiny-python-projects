@@ -1,4 +1,4 @@
-# while loo = execute some code while some conditions are true
+# while loop = execute some code while some conditions are true
 
 # name = input('Enter a name: ')
 

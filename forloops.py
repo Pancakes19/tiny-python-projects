@@ -12,10 +12,34 @@
 # print("Happy New year!")    
     
 # we can also iterate thru a string
-myNumber = '0815649939'
+# myNumber = '0815649939'
+# 
+# for x in myNumber:
+#     print(x,end='')
+    
 
-for x in myNumber:
-    print(x,end='')
-    
-    
+
+# continue and break key words
+# we can use continue to skip over stuff
+
+creditCard = '5746-4682-4721-5647'
+# for x in creditCard:
+#     if x == '-':
+#         continue
+#     else:
+#         print(x,end='')
+
+# break can break the loop after a certain contion is met
+for x in creditCard:
+    if x == '-':
+        break
+    else:
+        print(x,end='')
+
+
+
+
+
+
+
     
